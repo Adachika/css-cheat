@@ -1,0 +1,28 @@
+:root {
+    --grn: mediumspringgreen;
+}
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header  {
+    text-align: center;
+}
+header h1 {
+    color: var(--grn);
+}
+h2 {
+    color: var(--grn);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article {
+   width: 415px;
+   flex: 1 1 ;
+}
+article li {
+    list-style: none;
+}

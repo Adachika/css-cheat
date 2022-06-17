@@ -23,14 +23,17 @@ p {
     color: var();
 }
 
-main {
+main, section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 article {
-   width: 415px;
+    border-radius: 10px;
+    border-style: double;
+    background-color: var(--grn);
+   width: auto;
    flex: 1 1 ;
 }
 
@@ -41,4 +44,5 @@ article li {
 footer {
     color: var(--grn);
     text-align: center;
+    padding: 8px;
 }

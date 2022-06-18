@@ -16,7 +16,12 @@ header h1 {
     color: var(--grn);
 }
 
-
+pre {
+    -moz-user-select: all;
+    -webkit-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+} 
 
 h2 {
     color: var(--grn);

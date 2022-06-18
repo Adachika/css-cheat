@@ -24,30 +24,32 @@ pre {
 } 
 
 h2 {
-    color: var(--grn);
+    color: var();
+    border-style: solid;
+    border-radius: 5px;
 }
 
 p {
     color: var();
 }
 
-main, section {
+main {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+}
+
+section {
+    display: inline-grid;
+    justify-content: center;
+    border-style: dashed;
+    margin: 40px;
+    width: auto;
 }
 
 article {
-    border-radius: 10px;
-    border-style: double;
     background-color: var(--grn);
-    margin: 6px;
+    margin: 10px;
     width: auto;
     flex: 1 1 ;
-}
-
-article li {
-    list-style: none;
 }
 
 footer {

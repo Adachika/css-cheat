@@ -6,4 +6,4 @@ This project highlights important CSS concepts and applies them to a webpage des
 
 ## Framework
 - HTML
--CSS
+- CSS
